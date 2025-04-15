@@ -15,7 +15,7 @@ func (o *Order) List(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("Listar todas as ordens")
 }
 
-func (o *Order) getByID(w http.ResponseWriter, r *http.Request) {
+func (o *Order) GetByID(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("Pegar uma ordem por ID")
 }
 
